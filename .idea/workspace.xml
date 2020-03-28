@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c901e27-6055-4137-b77a-276724e4001a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/juc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/StarvingSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/ThreadSafeLazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +67,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="thread" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="thread" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Singleton" />
+      <recent name="thread" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ThreadTest">
@@ -160,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585368107217</updated>
       <workItem from="1585368110319" duration="3377000" />
-      <workItem from="1585388279180" duration="101000" />
+      <workItem from="1585388279180" duration="5061000" />
     </task>
     <servers />
   </component>
@@ -204,5 +200,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1585368588595" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585398753306">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585398753306" />
   </component>
 </project>
