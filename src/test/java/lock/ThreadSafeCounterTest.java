@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import java.util.Stack;
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 
 public class ThreadSafeCounterTest {
 
@@ -84,4 +83,6 @@ public class ThreadSafeCounterTest {
         oddThread.join();
         evenThread.join();
     }
+
+
 }
