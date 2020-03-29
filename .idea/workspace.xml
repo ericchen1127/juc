@@ -27,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -64,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lock" />
       <recent name="cas" />
       <recent name="thread" />
     </key>
@@ -76,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccumulatorTest">
+  <component name="RunManager" selected="JUnit.ThreadSafeCounterTest.testCrossPrint">
     <configuration name="AccumulatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="juc" />
       <extension name="coverage">
@@ -108,48 +109,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccumulatorTest.testSynchronizedAccumulator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadSafeCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cas.*" />
+          <option name="PATTERN" value="lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cas" />
-      <option name="MAIN_CLASS_NAME" value="cas.AccumulatorTest" />
-      <option name="METHOD_NAME" value="testSynchronizedAccumulator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thread" />
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
+      <option name="PACKAGE_NAME" value="lock" />
+      <option name="MAIN_CLASS_NAME" value="lock.ThreadSafeCounterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest.testThreadJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadSafeCounterTest.testCrossPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="thread" />
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
-      <option name="METHOD_NAME" value="testThreadJoin" />
+      <option name="PACKAGE_NAME" value="lock" />
+      <option name="MAIN_CLASS_NAME" value="lock.ThreadSafeCounterTest" />
+      <option name="METHOD_NAME" value="testCrossPrint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSafeCounterTest.testThreadSafeCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lock" />
+      <option name="MAIN_CLASS_NAME" value="lock.ThreadSafeCounterTest" />
+      <option name="METHOD_NAME" value="testThreadSafeCounter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreadSafeCounterTest.testCrossPrint" />
+        <item itemvalue="JUnit.ThreadSafeCounterTest.testThreadSafeCounter" />
+        <item itemvalue="JUnit.ThreadSafeCounterTest" />
         <item itemvalue="JUnit.AccumulatorTest" />
         <item itemvalue="JUnit.AccumulatorTest.testSAtomicAccumulator" />
-        <item itemvalue="JUnit.AccumulatorTest.testSynchronizedAccumulator" />
-        <item itemvalue="JUnit.ThreadTest" />
-        <item itemvalue="JUnit.ThreadTest.testThreadJoin" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +178,7 @@
       <updated>1585368107217</updated>
       <workItem from="1585368110319" duration="3377000" />
       <workItem from="1585388279180" duration="5587000" />
-      <workItem from="1585449933059" duration="3878000" />
+      <workItem from="1585449933059" duration="14090000" />
     </task>
     <servers />
   </component>
@@ -185,10 +186,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1585368153430">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1585473224030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585368153430" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585473224030" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585451815533">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -197,33 +198,53 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585368625576" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585453278153">
+    <state width="1493" height="106" key="GridCell.Tab.0.bottom" timestamp="1585487866722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585453278153" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585453278153">
+    <state width="1493" height="106" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585487866722" />
+    <state width="1493" height="106" key="GridCell.Tab.0.center" timestamp="1585487866721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585453278153" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585453278152">
+    <state width="1493" height="106" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585487866721" />
+    <state width="1493" height="106" key="GridCell.Tab.0.left" timestamp="1585487866721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585453278152" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585453278153">
+    <state width="1493" height="106" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585487866721" />
+    <state width="1493" height="106" key="GridCell.Tab.0.right" timestamp="1585487866722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585453278153" />
+    <state width="1493" height="106" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585487866722" />
+    <state width="1493" height="106" key="GridCell.Tab.1.bottom" timestamp="1585487866722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="106" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585487866722" />
+    <state width="1493" height="106" key="GridCell.Tab.1.center" timestamp="1585487866722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="106" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585487866722" />
+    <state width="1493" height="106" key="GridCell.Tab.1.left" timestamp="1585487866722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="106" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585487866722" />
+    <state width="1493" height="106" key="GridCell.Tab.1.right" timestamp="1585487866722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="106" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585487866722" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1585369150388">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585369150388" />
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585450654307">
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1585485179924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1585450654307" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585398753306">
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1585485179924" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585483314366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585398753306" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1585483314366" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585458252713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585458252713" />
   </component>
 </project>
