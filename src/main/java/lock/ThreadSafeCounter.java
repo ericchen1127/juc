@@ -1,6 +1,8 @@
 package lock;
 
 /**
+ * synchronized
+ *
  * @author eric
  */
 public class ThreadSafeCounter {

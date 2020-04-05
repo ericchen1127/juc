@@ -27,4 +27,9 @@ public class ThreadTest {
         final CustomThread customThread = new CustomThread();
         customThread.start();
     }
+
+    @Test
+    public void testThreadLocal(){
+
+    }
 }
