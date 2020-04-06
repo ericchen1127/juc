@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c901e27-6055-4137-b77a-276724e4001a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lock/ThreadSafeCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lock/ThreadSafeCounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/juc.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/juc.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../juc\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,11 +65,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="D:/WorkSpace/msb/JUC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -82,7 +90,7 @@
       <recent name="D:\GitHub\juc\src\main\java\thread" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CasTest.testCrossPrint">
+  <component name="RunManager" selected="JUnit.CompletableFutureTest.testCompletableFuture">
     <configuration name="CasTest.testCrossPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="juc" />
       <extension name="coverage">
@@ -94,6 +102,54 @@
       <option name="PACKAGE_NAME" value="interview.crossprint" />
       <option name="MAIN_CLASS_NAME" value="interview.crossprint.CasTest" />
       <option name="METHOD_NAME" value="testCrossPrint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutureTest.testCompletableFuture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="threadpool" />
+      <option name="MAIN_CLASS_NAME" value="threadpool.CompletableFutureTest" />
+      <option name="METHOD_NAME" value="testCompletableFuture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureTaskTest.testFutureTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="threadpool" />
+      <option name="MAIN_CLASS_NAME" value="threadpool.FutureTaskTest" />
+      <option name="METHOD_NAME" value="testFutureTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureTest.testCallable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="threadpool" />
+      <option name="MAIN_CLASS_NAME" value="threadpool.FutureTest" />
+      <option name="METHOD_NAME" value="testCallable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,68 +171,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportTest.testCrossPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.crossprint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interview.crossprint" />
-      <option name="MAIN_CLASS_NAME" value="interview.crossprint.LockSupportTest" />
-      <option name="METHOD_NAME" value="testCrossPrint" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantLockTest.testCrossPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.crossprint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interview.crossprint" />
-      <option name="MAIN_CLASS_NAME" value="interview.crossprint.ReentrantLockTest" />
-      <option name="METHOD_NAME" value="testCrossPrint" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynchronizedTest.testCrossPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.crossprint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interview.crossprint" />
-      <option name="MAIN_CLASS_NAME" value="interview.crossprint.SynchronizedTest" />
-      <option name="METHOD_NAME" value="testCrossPrint" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.SynchronizedTest.testCrossPrint" />
-      <item itemvalue="JUnit.ReentrantLockTest.testCrossPrint" />
-      <item itemvalue="JUnit.LockSupportTest.testCrossPrint" />
       <item itemvalue="JUnit.LinkedTransferQueueTest.testCrossPrint" />
       <item itemvalue="JUnit.CasTest.testCrossPrint" />
+      <item itemvalue="JUnit.FutureTaskTest.testFutureTask" />
+      <item itemvalue="JUnit.FutureTest.testCallable" />
+      <item itemvalue="JUnit.CompletableFutureTest.testCompletableFuture" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompletableFutureTest.testCompletableFuture" />
+        <item itemvalue="JUnit.FutureTaskTest.testFutureTask" />
+        <item itemvalue="JUnit.FutureTest.testCallable" />
         <item itemvalue="JUnit.CasTest.testCrossPrint" />
         <item itemvalue="JUnit.LinkedTransferQueueTest.testCrossPrint" />
-        <item itemvalue="JUnit.LockSupportTest.testCrossPrint" />
-        <item itemvalue="JUnit.ReentrantLockTest.testCrossPrint" />
-        <item itemvalue="JUnit.SynchronizedTest.testCrossPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +205,23 @@
       <workItem from="1585741783283" duration="684000" />
       <workItem from="1585961188041" duration="18636000" />
       <workItem from="1586049161175" duration="1051000" />
-      <workItem from="1586080914926" duration="9443000" />
+      <workItem from="1586080914926" duration="10095000" />
+      <workItem from="1586134937839" duration="2359000" />
+      <workItem from="1586137933486" duration="146000" />
+      <workItem from="1586138102968" duration="433000" />
+      <workItem from="1586138713320" duration="620000" />
+      <workItem from="1586140251455" duration="332000" />
+      <workItem from="1586142904736" duration="148000" />
+      <workItem from="1586143071440" duration="164000" />
+      <workItem from="1586143252639" duration="99000" />
+      <workItem from="1586143486022" duration="114000" />
+      <workItem from="1586143620693" duration="110000" />
+      <workItem from="1586143750350" duration="415000" />
+      <workItem from="1586144187616" duration="1052000" />
+      <workItem from="1586145256179" duration="704000" />
+      <workItem from="1586145982743" duration="579000" />
+      <workItem from="1586147256492" duration="265000" />
+      <workItem from="1586147546549" duration="738000" />
     </task>
     <servers />
   </component>
@@ -205,10 +229,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1586087034804">
+    <state x="361" y="71" key="#Notifications" timestamp="1586147341864">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586087034804" />
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1586147341864" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1586143559686">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586143559686" />
     <state x="344" y="62" key="#ReferenceTest.testSoftReference" timestamp="1585992471990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -221,62 +249,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585993175249" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585990648745">
+    <state x="511" y="248" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1586139052491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585990648745" />
+    <state x="511" y="248" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1586139052491" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586135686872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586135686872" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586137420900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1586137420900" />
     <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1586094317993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586094317993" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586091079621">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586145653535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586091079621" />
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1586094279419">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586145653535" />
+    <state x="96" y="105" key="FileDocumentManager.FileCacheConflict" timestamp="1586140361332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586094279419" />
-    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1586094279419">
+    <state x="96" y="105" key="FileDocumentManager.FileCacheConflict/0.0.1536.824@0.0.1536.824" timestamp="1586140361332" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586147523760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586094279419" />
-    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1586094279418">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586147523760" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586147523759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586094279418" />
-    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1586094279419">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586147523759" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586147523759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586094279419" />
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1586094136771">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586147523759" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586147523759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586094136771" />
-    <state width="1493" height="206" key="GridCell.Tab.1.center" timestamp="1586094136770">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586147523759" />
+    <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1586098422479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586094136770" />
-    <state width="1493" height="206" key="GridCell.Tab.1.left" timestamp="1586094136770">
+    <state width="1493" height="206" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586098422479" />
+    <state width="1493" height="206" key="GridCell.Tab.1.center" timestamp="1586098422478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586094136770" />
-    <state width="1493" height="206" key="GridCell.Tab.1.right" timestamp="1586094136770">
+    <state width="1493" height="206" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586098422478" />
+    <state width="1493" height="206" key="GridCell.Tab.1.left" timestamp="1586098422477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586094136770" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1585963504956">
+    <state width="1493" height="206" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586098422477" />
+    <state width="1493" height="206" key="GridCell.Tab.1.right" timestamp="1586098422478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585963504956" />
-    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1585989053434">
+    <state width="1493" height="206" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586098422478" />
+    <state x="150" y="91" width="1210" height="715" key="SettingsEditor" timestamp="1586147521213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1585989053434" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1586081821057">
+    <state x="150" y="91" width="1210" height="715" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586147521212" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1586147647750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586081821057" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1586147647750" />
+    <state x="454" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1586147551899">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586147551899" />
     <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585962563774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
